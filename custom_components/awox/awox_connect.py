@@ -3,7 +3,7 @@ import requests
 import json
 import uuid
 
-AWOX_CONNECT_URL = 'https://l4hparse-prod.awox.cloud/parse/'
+AWOX_CONNECT_URL = 'https://l4hparse-hc-prod.awox.cloud/parse/'
 AWOX_CONNECT_APPLICATION_ID = '55O69FLtoxPt67LLwaHGpHmVWndhZGn9Wty8PLrJ'
 AWOX_CONNECT_CLIENT_KEY = 'PyR3yV65rytEicteNlQHSVNpAGvCByOrsLiEqJtI'
 
@@ -67,3 +67,4 @@ class AwoxConnect:
 
     def devices(self):
         return self._fetch_class('Device')
+'subic.tine@gmail.com', 'BrezIdej8')
